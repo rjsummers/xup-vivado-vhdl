@@ -1,16 +1,16 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
-----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date             : Sun Mar 29 14:10:33 2020
+| Date             : Sun Mar 29 16:32:28 2020
 | Host             : DESKTOP-CIRCUP0 running 64-bit major release  (build 9200)
-| Command          : report_power -file lab1_4_2_power_routed.rpt -pb lab1_4_2_power_summary_routed.pb -rpx lab1_4_2_power_routed.rpx
-| Design           : lab1_4_2
+| Command          : report_power -file mux_2_to_1_power_routed.rpt -pb mux_2_to_1_power_summary_routed.pb -rpx mux_2_to_1_power_routed.rpx
+| Design           : mux_2_to_1
 | Device           : xc7a200tsbg484-1
 | Design State     : routed
 | Grade            : commercial
 | Process          : typical
 | Characterization : Production
-----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Power Report
 
@@ -131,10 +131,10 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+----------+-----------+
-| Name     | Power (W) |
-+----------+-----------+
-| lab1_4_2 |     1.247 |
-+----------+-----------+
++------------+-----------+
+| Name       | Power (W) |
++------------+-----------+
+| mux_2_to_1 |     1.247 |
++------------+-----------+
 
 

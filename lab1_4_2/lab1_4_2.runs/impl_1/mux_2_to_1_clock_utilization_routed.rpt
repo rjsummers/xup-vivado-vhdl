@@ -1,14 +1,14 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Sun Mar 29 14:10:34 2020
+| Date         : Sun Mar 29 16:32:28 2020
 | Host         : DESKTOP-CIRCUP0 running 64-bit major release  (build 9200)
-| Command      : report_clock_utilization -file lab1_4_2_clock_utilization_routed.rpt
-| Design       : lab1_4_2
+| Command      : report_clock_utilization -file mux_2_to_1_clock_utilization_routed.rpt
+| Design       : mux_2_to_1
 | Device       : 7a200t-sbg484
 | Speed File   : -1  PRODUCTION 1.23 2018-06-13
 | Design State : Routed
---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
 
 Clock Utilization Report
 

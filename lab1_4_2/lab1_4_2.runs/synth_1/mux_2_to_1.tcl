@@ -32,7 +32,7 @@ set_property board_part_repo_paths {C:/Users/rsummers/AppData/Roaming/Xilinx/Viv
 set_property board_part digilentinc.com:nexys_video:part0:1.1 [current_project]
 set_property ip_output_repo f:/xup/digital/lab1_4_2/lab1_4_2.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_vhdl -library xil_defaultlib F:/xup/digital/lab1_4_2/lab1_4_2.srcs/sources_1/new/lab1_4_2.vhd
+read_vhdl -library xil_defaultlib F:/xup/digital/lab1_4_2/lab1_4_2.srcs/sources_1/new/mux_2_to_1.vhd
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be
@@ -47,12 +47,12 @@ set_property used_in_implementation false [get_files F:/xup/digital/lab1_4_2/lab
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
-synth_design -top lab1_4_2 -part xc7a200tsbg484-1
+synth_design -top mux_2_to_1 -part xc7a200tsbg484-1
 
 
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef lab1_4_2.dcp
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file lab1_4_2_utilization_synth.rpt -pb lab1_4_2_utilization_synth.pb"
+write_checkpoint -force -noxdef mux_2_to_1.dcp
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file mux_2_to_1_utilization_synth.rpt -pb mux_2_to_1_utilization_synth.pb"
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]
