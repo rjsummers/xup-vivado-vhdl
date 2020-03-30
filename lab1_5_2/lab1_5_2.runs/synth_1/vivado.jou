@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Mar 29 23:00:54 2020
+# Process ID: 3412
+# Current directory: F:/xup/digital/lab1_5_2/lab1_5_2.runs/synth_1
+# Command line: vivado.exe -log bcd_to_7seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bcd_to_7seg.tcl
+# Log file: F:/xup/digital/lab1_5_2/lab1_5_2.runs/synth_1/bcd_to_7seg.vds
+# Journal file: F:/xup/digital/lab1_5_2/lab1_5_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source bcd_to_7seg.tcl -notrace
